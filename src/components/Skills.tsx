@@ -1,6 +1,6 @@
 export function Skills() {
   return (
-    <section className="flex flex-col mt-56">
+    <section className="flex flex-col mt-56 scroll-mt-10" id="skills">
       <h2 className="uppercase font-medium text-6xl tracking-widest">Skills</h2>
       <div className="pl-[20%] pt-[10%] PR-[5%]">
         <ul>
@@ -51,16 +51,6 @@ export function Skills() {
             <p className="text-xl py-2">
               A server-side JavaScript runtime environment, for building
               scalable and efficient back-end applications.
-            </p>
-          </li>
-
-          <li className="mt-4">
-            <span className="uppercase font-bold py-1 border-b border-gray-900">
-              React Native
-            </span>
-            <p className="text-xl py-2">
-              A framework for building cross-platform mobile applications using
-              JavaScript and React.
             </p>
           </li>
 

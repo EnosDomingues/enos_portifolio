@@ -7,10 +7,10 @@ export function Header() {
     <header className="flex items-center justify-between h-8">
       <Image src={portifolioLogo} alt="" />
       <nav className="flex text-lg gap-10 uppercase">
-        <a href="">About me</a>
-        <a href="">Projects</a>
-        <a href="">Skills</a>
-        <a href="">Contact</a>
+        <a href="#about">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   )

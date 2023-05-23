@@ -1,6 +1,9 @@
 export function About() {
   return (
-    <section className="flex flex-col tracking-wide leading-relaxed">
+    <section
+      className="flex flex-col tracking-wide leading-relaxed scroll-mt-10"
+      id="about"
+    >
       <h2 className="uppercase font-medium text-6xl tracking-widest">
         About me
       </h2>

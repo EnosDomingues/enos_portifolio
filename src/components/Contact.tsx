@@ -2,7 +2,7 @@ import { LinkedinIcon, Mail } from 'lucide-react'
 
 export function Contact() {
   return (
-    <section className="flex flex-col mt-56">
+    <section className="flex flex-col mt-56 scroll-mt-10" id="contact">
       <h2 className="uppercase font-medium text-6xl tracking-widest">
         Contact
       </h2>

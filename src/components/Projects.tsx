@@ -2,7 +2,7 @@ import { Github, Globe } from 'lucide-react'
 
 export function Projects() {
   return (
-    <section className="flex flex-col mt-56">
+    <section className="flex flex-col mt-56 scroll-mt-10" id="projects">
       <h2 className="uppercase font-medium text-6xl tracking-widest">
         Projects
       </h2>
