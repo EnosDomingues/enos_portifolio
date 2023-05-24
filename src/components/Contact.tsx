@@ -30,7 +30,7 @@ export function Contact() {
             <Mail size={28} />
           </div>
           <div>
-            <span className="flex h-full text-md font-semibold">Linkedin</span>
+            <span className="flex h-full text-md font-semibold">Email</span>
 
             <a
               href="mailto:mail@enos.dev"
