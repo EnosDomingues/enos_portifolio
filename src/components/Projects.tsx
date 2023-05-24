@@ -22,15 +22,19 @@ export function Projects() {
           </p>
           <div className="flex items-center gap-2 my-2">
             <a
-              href="http://"
+              href="https://github.com/EnosDomingues/enos_portifolio"
+              target="_blank"
               className="flex items-center bg-zinc-200 md:bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
+              rel="noreferrer"
             >
               <Github className="w-4 h-4" />
               <span className="hidden md:flex">Github</span>
             </a>
             <a
-              href="http://"
+              href="https://enos.dev"
+              target="_blank"
               className="flex items-center bg-zinc-200 md:bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
+              rel="noreferrer"
             >
               <Globe className="w-4 h-4" />
               <span className="hidden md:flex">Website</span>
