@@ -1,5 +1,8 @@
 import { ReactNode } from 'react'
-import { Inter, Vujahday_Script as Vujahday } from 'next/font/google'
+import {
+  Inter,
+  Nothing_You_Could_Do as NothingYouCouldDo,
+} from 'next/font/google'
 
 import './globals.css'
 
@@ -9,10 +12,10 @@ const inter = Inter({
   display: 'swap',
 })
 
-const vujahdayScript = Vujahday({
+const nothingYouCouldDo = NothingYouCouldDo({
   subsets: ['latin'],
   weight: '400',
-  variable: '--font-vujahday',
+  variable: '--font-nothing-you-could-do',
   display: 'swap',
 })
 
@@ -25,7 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${vujahdayScript.variable} font-sans`}
+        className={`${inter.variable} ${nothingYouCouldDo.variable} font-sans`}
       >
         {children}
       </body>

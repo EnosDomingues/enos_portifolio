@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)'],
-        alt: ['var(--font-vujahday)'],
+        alt: ['var(--font-nothing-you-could-do)'],
       },
     },
   },
