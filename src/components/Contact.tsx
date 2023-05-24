@@ -22,7 +22,7 @@ export function Contact() {
 
             <a
               href="https://linkedin.com/in/enos-domingues-a8541b277"
-              className="font-semibold text-xs md:text-sm text-blue-700"
+              className="font-semibold text-xs md:text-sm text-zinc-600"
               target="_blank"
               rel="noreferrer"
             >
@@ -40,7 +40,7 @@ export function Contact() {
 
             <a
               href="mailto:mail@enos.dev"
-              className="font-semibold text-xs md:text-sm text-blue-700"
+              className="font-semibold text-xs md:text-sm text-zinc-600"
             >
               mail@enos.dev
             </a>
@@ -56,7 +56,7 @@ export function Contact() {
 
             <a
               href="https://github.com/EnosDomingues"
-              className="font-semibold text-xs md:text-sm text-blue-700"
+              className="font-semibold text-xs md:text-sm text-zinc-600"
             >
               github.com/EnosDomingues
             </a>
