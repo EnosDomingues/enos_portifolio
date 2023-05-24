@@ -1,4 +1,4 @@
-import { LinkedinIcon, Mail } from 'lucide-react'
+import { Github, LinkedinIcon, Mail } from 'lucide-react'
 
 export function Contact() {
   return (
@@ -31,7 +31,7 @@ export function Contact() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start mt-2">
+        <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start mt-4">
           <div>
             <span className="flex h-full gap-2 w-full items-center">
               <Mail className="h-5 w-5 md:h-8 md:w-8" strokeWidth={1.5} />
@@ -43,6 +43,22 @@ export function Contact() {
               className="font-semibold text-xs md:text-sm text-blue-700"
             >
               mail@enos.dev
+            </a>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start mt-4">
+          <div>
+            <span className="flex h-full gap-2 w-full items-center">
+              <Github className="h-5 w-5 md:h-8 md:w-8" strokeWidth={1.5} />
+              <span className="font-semibold text-sm md:text-lg">Github</span>
+            </span>
+
+            <a
+              href="https://github.com/EnosDomingues"
+              className="font-semibold text-xs md:text-sm text-blue-700"
+            >
+              github.com/EnosDomingues
             </a>
           </div>
         </div>
