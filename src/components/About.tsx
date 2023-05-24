@@ -7,7 +7,7 @@ export function About() {
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
         About me
       </h2>
-      <div className="md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%]">
+      <div className="lg:pl-[20%] pt-[6%] md:pr-[5%]">
         <p className="xl:text-xl lg:text-lg md:text-base text-sm text-justify md:text-start">
           Hey, welcome to my portifolio. My name is Enos Domingues, and I&apos;m
           a passionate front-end developer. I have always been fascinated by the

@@ -8,7 +8,7 @@ export function Skills() {
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
         Skills
       </h2>
-      <div className="md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%]">
+      <div className="lg:pl-[20%] pt-[6%] md:pr-[5%]">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-baseline gap-6">
           <div>
             <span className="uppercase font-bold py-1 text-xs md:text-sm px-2 bg-zinc-600 rounded-md text-white">
