@@ -3,7 +3,7 @@ import { Github, Globe } from 'lucide-react'
 export function Projects() {
   return (
     <section
-      className="flex flex-col tracking-wide leading-relaxed scroll-mt-16 mt-12 md:h-screen"
+      className="flex flex-col tracking-wide leading-relaxed scroll-mt-44 mt-12 md:h-screen"
       id="projects"
     >
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
@@ -14,7 +14,7 @@ export function Projects() {
           <header className="mb-1">
             <span className="uppercase font-bold text-sm">My portifolio</span>
           </header>
-          <p className="md:text-xl text-sm text-justify">
+          <p className="xl:text-xl lg:text-lg md:text-base text-sm text-justify md:text-start">
             Built with Next.js 13 and Tailwind CSS, showcasing my work in a
             sleek and professional manner. Through this website, I aim to
             present my passion for web development and attract exciting

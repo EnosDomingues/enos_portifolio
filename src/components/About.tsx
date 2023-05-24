@@ -1,7 +1,7 @@
 export function About() {
   return (
     <section
-      className="flex flex-col tracking-wide leading-relaxed scroll-mt-16 md:h-screen"
+      className="flex flex-col tracking-wide leading-relaxed scroll-mt-44 md:h-screen"
       id="about"
     >
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">

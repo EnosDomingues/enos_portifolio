@@ -4,12 +4,14 @@ import portifolioLogo from '../assets/logo.svg'
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between h-8">
-      <Image
-        src={portifolioLogo}
-        alt=""
-        className="md:w-6 md:h-6 lg:w-8 lg:h-8 w-4 h-4"
-      />
+    <header className="flex items-center md:px-24 bg-white md:py-16 z-10 justify-between h-8 md:fixed md:top-0 md:left-0 w-full border-b border-slate-100">
+      <a href="#hero">
+        <Image
+          src={portifolioLogo}
+          alt=""
+          className="md:w-6 md:h-6 lg:w-8 lg:h-8 w-4 h-4"
+        />
+      </a>
       <nav className="md:flex text-lg gap-10 uppercase hidden">
         <a
           href="#about"

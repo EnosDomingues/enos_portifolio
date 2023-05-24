@@ -12,9 +12,12 @@ export function Contact() {
       <div className="sm:pl-[10%] md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%] mb-[6%]">
         <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start">
           <div>
-            <span className="flex  h-full gap-2 w-full text-sm md:text-md">
-              <LinkedinIcon className="h-5 w-5" strokeWidth={1.5} />
-              <span className="translate-y-[3px] font-semibold">Linkedin</span>
+            <span className="flex h-full gap-2 w-full items-center">
+              <LinkedinIcon
+                className="h-5 w-5 md:h-8 md:w-8"
+                strokeWidth={1.5}
+              />
+              <span className="font-semibold text-sm md:text-lg">Linkedin</span>
             </span>
 
             <a
@@ -30,9 +33,9 @@ export function Contact() {
 
         <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start mt-2">
           <div>
-            <span className="flex  h-full gap-2 w-full text-sm md:text-md">
-              <Mail className="h-5 w-5" strokeWidth={1.5} />
-              <span className="font-semibold">Email</span>
+            <span className="flex h-full gap-2 w-full items-center">
+              <Mail className="h-5 w-5 md:h-8 md:w-8" strokeWidth={1.5} />
+              <span className="font-semibold text-sm md:text-lg">Email</span>
             </span>
 
             <a

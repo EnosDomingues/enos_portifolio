@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <section
-      className="h-96 sm:h-[calc(100vh-2rem)] md:h-[calc(100vh-6rem)] flex flex-col items-center justify-center"
+      className="h-96 sm:h-[calc(100vh-2rem)] md:h-screen flex flex-col items-center justify-center"
       id="hero"
     >
       <div className="sm:-translate-y-10 flex flex-col items-center justify-center">
