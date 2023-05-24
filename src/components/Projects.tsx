@@ -20,14 +20,14 @@ export function Projects() {
           <div className="flex items-center gap-2 mt-4">
             <a
               href="http://"
-              className="flex items-center bg-slate-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-300 transition-all"
+              className="flex items-center bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
             >
               <Github size={18} />
               <span>Github</span>
             </a>
             <a
               href="http://"
-              className="flex items-center bg-slate-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-300 transition-all"
+              className="flex items-center bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
             >
               <Globe size={18} />
               <span>Website</span>

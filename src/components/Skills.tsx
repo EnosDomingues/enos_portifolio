@@ -44,7 +44,7 @@ export function Skills() {
             </p>
           </li>
 
-          <li className="mt-4">
+          {/* <li className="mt-4">
             <span className="uppercase font-bold py-1 border-b border-gray-900">
               Node.JS
             </span>
@@ -52,7 +52,7 @@ export function Skills() {
               A server-side JavaScript runtime environment, for building
               scalable and efficient back-end applications.
             </p>
-          </li>
+          </li> */}
 
           <li className="mt-4">
             <span className="uppercase font-bold py-1 border-b border-gray-900">

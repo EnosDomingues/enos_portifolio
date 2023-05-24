@@ -8,8 +8,8 @@ export function Contact() {
       </h2>
       <div className="pl-[20%] pt-[10%] PR-[5%]">
         <div className="grid grid-cols-[100px_1fr] grid-rows-1 place-items-start">
-          <div className="p-2 bg-gray-200 rounded-md">
-            <LinkedinIcon size={28} />
+          <div className="w-full h-full grid place-items-center">
+            <LinkedinIcon size={34} strokeWidth={1} />
           </div>
           <div>
             <span className="flex h-full text-md font-semibold">Linkedin</span>
@@ -26,8 +26,8 @@ export function Contact() {
         </div>
 
         <div className="grid grid-cols-[100px_1fr] grid-rows-1 place-items-start mt-8">
-          <div className="p-2 bg-gray-200 rounded-md">
-            <Mail size={28} />
+          <div className="w-full h-full grid place-items-center">
+            <Mail size={34} strokeWidth={1} />
           </div>
           <div>
             <span className="flex h-full text-md font-semibold">Email</span>
