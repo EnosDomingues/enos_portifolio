@@ -9,7 +9,7 @@ export function Projects() {
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
         Projects
       </h2>
-      <div className="sm:pl-[10%] md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%]">
+      <div className="md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%]">
         <div className="">
           <header className="mb-1">
             <span className="uppercase font-bold text-sm">My portifolio</span>

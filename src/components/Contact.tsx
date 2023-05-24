@@ -9,7 +9,7 @@ export function Contact() {
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
         Contact
       </h2>
-      <div className="sm:pl-[10%] md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%] mb-[6%]">
+      <div className="md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%] mb-[6%]">
         <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start">
           <div>
             <span className="flex h-full gap-2 w-full items-center">
