@@ -1,7 +1,7 @@
 export function Skills() {
   return (
     <section
-      className="flex flex-col tracking-wide leading-relaxed scroll-mt-16 mt-12"
+      className="flex flex-col tracking-wide leading-relaxed scroll-mt-16 mt-12 md:h-screen"
       id="skills"
     >
       <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
