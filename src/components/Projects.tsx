@@ -2,35 +2,38 @@ import { Github, Globe } from 'lucide-react'
 
 export function Projects() {
   return (
-    <section className="flex flex-col mt-56 scroll-mt-10" id="projects">
-      <h2 className="uppercase font-medium text-6xl tracking-widest">
+    <section
+      className="flex flex-col tracking-wide leading-relaxed scroll-mt-16 mt-12"
+      id="projects"
+    >
+      <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
         Projects
       </h2>
-      <div className="pl-[20%] pt-[10%] PR-[5%]">
-        <div className="border-b border-gray-900 p-4">
-          <header className="mb-4">
-            <span className="uppercase font-bold">My portifolio</span>
+      <div className="sm:pl-[10%] md:pl-[15%] lg:pl-[20%] pt-[6%] md:pr-[5%]">
+        <div className="">
+          <header className="mb-1">
+            <span className="uppercase font-bold text-sm">My portifolio</span>
           </header>
-          <p className="text-xl">
+          <p className="md:text-xl text-sm text-justify">
             Built with Next.js 13 and Tailwind CSS, showcasing my work in a
             sleek and professional manner. Through this website, I aim to
             present my passion for web development and attract exciting
             professional opportunities.
           </p>
-          <div className="flex items-center gap-2 mt-4">
+          <div className="flex items-center gap-2 my-2">
             <a
               href="http://"
-              className="flex items-center bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
+              className="flex items-center bg-zinc-200 md:bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
             >
-              <Github size={18} />
-              <span>Github</span>
+              <Github className="w-4 h-4" />
+              <span className="hidden md:flex">Github</span>
             </a>
             <a
               href="http://"
-              className="flex items-center bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
+              className="flex items-center bg-zinc-200 md:bg-zinc-200 px-4 py-2 gap-2 rounded-md hover:bg-slate-200 transition-all"
             >
-              <Globe size={18} />
-              <span>Website</span>
+              <Globe className="w-4 h-4" />
+              <span className="hidden md:flex">Website</span>
             </a>
           </div>
         </div>
