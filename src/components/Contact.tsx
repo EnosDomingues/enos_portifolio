@@ -6,7 +6,7 @@ export function Contact() {
       className="flex flex-col tracking-wide leading-relaxed scroll-mt-16 mt-12"
       id="contact"
     >
-      <h2 className="uppercase font-medium xl:text-6xl md:text-4xl tracking-widest lg:text-5xl text-xl">
+      <h2 className="uppercase font-medium xl:text-6xl 2xl:text-7xl md:text-4xl tracking-widest lg:text-5xl text-xl">
         Contact
       </h2>
       <div className="lg:pl-[20%] pt-[6%] md:pr-[5%] mb-[6%]">
@@ -14,15 +14,17 @@ export function Contact() {
           <div>
             <span className="flex h-full gap-2 w-full items-center">
               <LinkedinIcon
-                className="h-5 w-5 md:h-8 md:w-8"
+                className="h-5 w-5 md:h-8 md:w-8 lg:h-9 lg:w-9 xl:h-10 xl:w-10"
                 strokeWidth={1.5}
               />
-              <span className="font-semibold text-sm md:text-lg">Linkedin</span>
+              <span className="font-semibold text-sm md:text-lg lg:text-xl">
+                Linkedin
+              </span>
             </span>
 
             <a
               href="https://linkedin.com/in/enos-domingues-a8541b277"
-              className="font-semibold text-xs md:text-sm text-zinc-600"
+              className="font-semibold text-xs md:text-sm lg:text-lg text-zinc-600"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,13 +36,18 @@ export function Contact() {
         <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start mt-4">
           <div>
             <span className="flex h-full gap-2 w-full items-center">
-              <Mail className="h-5 w-5 md:h-8 md:w-8" strokeWidth={1.5} />
-              <span className="font-semibold text-sm md:text-lg">Email</span>
+              <Mail
+                className="h-5 w-5 md:h-8 md:w-8 lg:h-9 lg:w-9 xl:h-10 xl:w-10"
+                strokeWidth={1.5}
+              />
+              <span className="font-semibold text-sm md:text-lg lg:text-xl">
+                Email
+              </span>
             </span>
 
             <a
               href="mailto:mail@enos.dev"
-              className="font-semibold text-xs md:text-sm text-zinc-600"
+              className="font-semibold text-xs md:text-sm lg:text-lg text-zinc-600"
             >
               mail@enos.dev
             </a>
@@ -50,13 +57,18 @@ export function Contact() {
         <div className="grid md:grid-cols-[1fr] grid-cols-[40px_1fr] grid-rows-1 place-items-start mt-4">
           <div>
             <span className="flex h-full gap-2 w-full items-center">
-              <Github className="h-5 w-5 md:h-8 md:w-8" strokeWidth={1.5} />
-              <span className="font-semibold text-sm md:text-lg">Github</span>
+              <Github
+                className="h-5 w-5 md:h-8 md:w-8 lg:h-9 lg:w-9 xl:h-10 xl:w-10"
+                strokeWidth={1.5}
+              />
+              <span className="font-semibold text-sm md:text-lg lg:text-xl">
+                Github
+              </span>
             </span>
 
             <a
               href="https://github.com/EnosDomingues"
-              className="font-semibold text-xs md:text-sm text-zinc-600"
+              className="font-semibold text-xs md:text-sm lg:text-lg text-zinc-600"
             >
               github.com/EnosDomingues
             </a>

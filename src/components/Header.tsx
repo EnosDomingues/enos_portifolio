@@ -15,28 +15,28 @@ export function Header() {
       <nav className="md:flex text-lg gap-10 uppercase hidden">
         <a
           href="#about"
-          className="group flex flex-col items-center justify-center md:text-sm lg:text-base"
+          className="group flex flex-col items-center justify-center md:text-sm lg:text-base xl:text-lg 2xl:text-xl"
         >
           About me
           <div className="w-0 h-px bg-black group-hover:w-full transition-all"></div>
         </a>
         <a
           href="#projects"
-          className="group flex flex-col items-center justify-center md:text-sm lg:text-base"
+          className="group flex flex-col items-center justify-center md:text-sm lg:text-base xl:text-lg 2xl:text-xl"
         >
           Projects
           <div className="w-0 h-px bg-black group-hover:w-full transition-all"></div>
         </a>
         <a
           href="#skills"
-          className="group flex flex-col items-center justify-center md:text-sm lg:text-base"
+          className="group flex flex-col items-center justify-center md:text-sm lg:text-base xl:text-lg 2xl:text-xl"
         >
           Skills
           <div className="w-0 h-px bg-black group-hover:w-full transition-all"></div>
         </a>
         <a
           href="#contact"
-          className="group flex flex-col items-center justify-center md:text-sm lg:text-base"
+          className="group flex flex-col items-center justify-center md:text-sm lg:text-base xl:text-lg 2xl:text-xl"
         >
           Contact
           <div className="w-0 h-px bg-black group-hover:w-full transition-all"></div>
