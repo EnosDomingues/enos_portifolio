@@ -11,7 +11,7 @@ export function Skills() {
       <div className="desktop-md:pr-[5%] pt-[6%] laptop:pl-[20%]">
         <div className="desktop-md:text-2xl grid grid-cols-1 place-items-baseline gap-4 text-sm tablet:grid-cols-2 tablet:gap-6 tablet:text-base laptop:text-lg desktop:gap-10 desktop:text-xl full-hd:text-3xl 4k:text-6xl">
           <div className="flex h-full w-full flex-col rounded border border-slate-400 p-2">
-            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               JavaScript
             </span>
             <p className="mt-1 px-2 laptop:mt-2 4k:px-4 4k:py-6 4k:leading-tight">
@@ -21,7 +21,7 @@ export function Skills() {
           </div>
 
           <div className="flex h-full w-full flex-col rounded border border-slate-400 p-2">
-            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               TypeScript
             </span>
             <p className="mt-1 px-2 laptop:mt-2 4k:px-4 4k:py-6 4k:leading-tight">
@@ -31,7 +31,7 @@ export function Skills() {
           </div>
 
           <div className="flex h-full w-full flex-col rounded border border-slate-400 p-2">
-            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               Next.JS
             </span>
             <p className="mt-1 px-2 laptop:mt-2 4k:px-4 4k:py-6 4k:leading-tight">
@@ -41,7 +41,7 @@ export function Skills() {
           </div>
 
           <div className="flex h-full w-full flex-col rounded border border-slate-400 p-2">
-            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               React
             </span>
             <p className="mt-1 px-2 laptop:mt-2 4k:px-4 4k:py-6 4k:leading-tight">
@@ -51,7 +51,7 @@ export function Skills() {
           </div>
 
           <div className="flex h-full w-full flex-col rounded border border-slate-400 p-2">
-            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               Tailwind CSS
             </span>
             <p className="mt-1 px-2 laptop:mt-2 4k:px-4 4k:py-6 4k:leading-tight">
@@ -61,7 +61,7 @@ export function Skills() {
           </div>
 
           <div className="flex h-full w-full flex-col rounded border border-slate-400 p-2">
-            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               Node.js
             </span>
             <p className="mt-1 px-2 laptop:mt-2 4k:px-4 4k:py-6 4k:leading-tight">

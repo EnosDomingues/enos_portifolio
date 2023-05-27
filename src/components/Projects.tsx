@@ -12,7 +12,7 @@ export function Projects() {
       <div className="pt-[6%] tablet:pr-[5%] laptop:pl-[20%]">
         <div className="flex h-full flex-col space-y-2 rounded border border-slate-400 p-2 4k:space-y-6">
           <header className="laptop:mb-2">
-            <span className="flex rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase 4k:px-4 4k:py-6 4k:text-5xl">
+            <span className="flex rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:text-sm full-hd:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
               My portifolio
             </span>
           </header>
@@ -22,11 +22,11 @@ export function Projects() {
             present my passion for web development and attract exciting
             professional opportunities.
           </p>
-          <div className="flex items-center gap-2 text-xs 4k:text-3xl">
+          <div className="flex items-center gap-2 text-xs desktop:text-lg full-hd:text-xl 4k:text-3xl">
             <a
               href="https://github.com/EnosDomingues/enos_portifolio"
               target="_blank"
-              className="flex items-center gap-2 rounded-md bg-zinc-200 px-4 py-2  transition-all hover:bg-slate-200 tablet:bg-zinc-200 4k:px-8 4k:py-4 "
+              className="flex items-center gap-2 border border-slate-400 px-4 py-2 transition-all hover:bg-zinc-100 4k:px-8 4k:py-4 "
               rel="noreferrer"
             >
               <Github
@@ -38,7 +38,7 @@ export function Projects() {
             <a
               href="https://enos.dev"
               target="_blank"
-              className="flex items-center gap-2 rounded-md bg-zinc-200 px-4 py-2 transition-all hover:bg-slate-200 tablet:bg-zinc-200 4k:px-8 4k:py-4"
+              className="flex items-center gap-2  border border-slate-400 px-4 py-2 transition-all hover:bg-zinc-100  4k:px-8 4k:py-4"
               rel="noreferrer"
             >
               <Globe

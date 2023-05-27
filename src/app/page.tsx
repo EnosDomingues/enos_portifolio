@@ -7,7 +7,7 @@ import { Skills } from '@/components/Skills'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col px-10 pt-8 tablet:px-24 tablet:pt-16">
+    <main className="flex min-h-screen flex-col px-10 pt-8 tablet:px-24 tablet:pt-16 4k:px-48 ">
       <Header />
       <Hero />
       <About />
