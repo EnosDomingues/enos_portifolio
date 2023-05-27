@@ -20,6 +20,7 @@ module.exports = {
       'desktop-sm': '1280px',
       'desktop-md': '1536px',
       'full-hd': '1920px',
+      '2k': '2048px',
     },
   },
   plugins: [],

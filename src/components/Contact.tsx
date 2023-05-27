@@ -68,7 +68,7 @@ export function Contact() {
 
             <a
               href="https://github.com/EnosDomingues"
-              className="font-semibold text-xs tablet-md:text-sm laptop-sm:text-lg desktop-md:text-xl text-zinc-600"
+              className="font-semibold text-xs tablet-md:text-sm full-hd:text-2xl laptop-sm:text-lg desktop-md:text-xl text-zinc-600"
             >
               github.com/EnosDomingues
             </a>
