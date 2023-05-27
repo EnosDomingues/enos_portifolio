@@ -4,15 +4,15 @@ import portifolioLogo from '../assets/logo.svg'
 
 export function Header() {
   return (
-    <header className="z-10 flex h-8 w-full items-center justify-between bg-white tablet-md:fixed tablet-md:left-0 tablet-md:top-0 tablet-md:px-24 tablet-md:py-16">
+    <header className="z-10 flex w-full items-center justify-between bg-white tablet-md:fixed tablet-md:left-0 tablet-md:top-0 tablet-md:px-24 tablet-md:py-16 4k:px-48 4k:py-32">
       <a href="#">
         <Image
           src={portifolioLogo}
           alt=""
-          className="h-4 w-4 tablet-md:h-6 tablet-md:w-6  laptop-sm:h-8 laptop-sm:w-8 full-hd:h-9 full-hd:w-9"
+          className="h-4 w-4 tablet-md:h-6 tablet-md:w-6  laptop-sm:h-8 laptop-sm:w-8 full-hd:h-9 full-hd:w-9 4k:h-20 4k:w-20"
         />
       </a>
-      <nav className="hidden gap-10 uppercase tablet-md:flex tablet-md:text-sm laptop-sm:text-base desktop-sm:text-lg desktop-md:text-xl full-hd:text-2xl">
+      <nav className="hidden gap-10 uppercase tablet-md:flex tablet-md:text-sm laptop-sm:text-base desktop-sm:text-lg desktop-md:text-xl full-hd:text-2xl 4k:gap-36 4k:text-5xl">
         <a
           href="#about"
           className="group flex flex-col items-center justify-center"

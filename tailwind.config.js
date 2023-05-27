@@ -11,6 +11,10 @@ module.exports = {
         sans: ['var(--font-inter)'],
         alt: ['var(--font-nothing-you-could-do)'],
       },
+
+      fontSize: {
+        '10xl': '10rem',
+      },
     },
 
     screens: {
@@ -21,7 +25,7 @@ module.exports = {
       'desktop-md': '1536px',
       'full-hd': '1920px',
       '2k': '2048px',
-      '4k': '3840px',
+      '4k': '2560px',
     },
   },
   plugins: [],
