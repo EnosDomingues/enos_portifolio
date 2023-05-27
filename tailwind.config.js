@@ -18,11 +18,9 @@ module.exports = {
     },
 
     screens: {
-      'tablet-sm': '640px',
-      'tablet-md': '768px',
-      'laptop-sm': '1024px',
-      'desktop-sm': '1280px',
-      'desktop-md': '1536px',
+      tablet: '768px',
+      laptop: '1024px',
+      desktop: '1280px',
       'full-hd': '1920px',
       '2k': '2048px',
       '4k': '2560px',

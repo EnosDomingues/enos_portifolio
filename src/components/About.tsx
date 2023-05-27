@@ -1,13 +1,13 @@
 export function About() {
   return (
     <section
-      className="flex scroll-mt-44 flex-col leading-relaxed tracking-wide tablet-md:min-h-[calc(100vh-8rem)] 4k:scroll-mt-96"
+      className="flex scroll-mt-44 flex-col leading-relaxed tracking-wide tablet:min-h-[calc(100vh-8rem)] 4k:scroll-mt-96"
       id="about"
     >
-      <h2 className="text-xl uppercase tracking-widest tablet-md:text-4xl laptop-sm:text-5xl desktop-sm:text-6xl desktop-md:text-7xl full-hd:text-8xl 4k:text-10xl">
+      <h2 className="desktop-md:text-7xl text-xl uppercase tracking-widest tablet:text-4xl laptop:text-5xl desktop:text-6xl full-hd:text-8xl 4k:text-10xl">
         About me
       </h2>
-      <div className="space-y-4 pt-[6%] text-sm tablet-md:pr-[5%] tablet-md:text-base laptop-sm:pl-[20%] laptop-sm:text-lg desktop-sm:text-xl desktop-md:text-2xl full-hd:text-3xl 4k:space-y-24 4k:text-6xl">
+      <div className="desktop-md:text-2xl space-y-4 pt-[6%] text-sm tablet:pr-[5%] tablet:text-base laptop:pl-[20%] laptop:text-lg desktop:text-xl full-hd:text-3xl 4k:space-y-24 4k:text-6xl">
         <p className="text-justify">
           Hey, welcome to my portifolio. My name is Enos Domingues, and I&apos;m
           a passionate front-end developer. I have always been fascinated by the
