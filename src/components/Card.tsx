@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import { Button } from './Button'
 
 interface CardButtons {
@@ -10,17 +9,6 @@ interface CardProps {
   title: string
   description: string
   cardButtons?: CardButtons
-}
-
-// Card header style
-const { header_2k, header_4k, header_fullHd, header_laptop, header_style } = {
-  header_style:
-    'flex rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase',
-  // Responsivity
-  header_4k: ' 4k:px-4 4k:py-6 4k:text-5xl ',
-  header_2k: ' 2k:text-2xl ',
-  header_fullHd: ' 2k:text-2xl ',
-  header_laptop: ' laptop:text-sm laptop:mb-2',
 }
 
 export function Card({ title, description, cardButtons }: CardProps) {
@@ -36,9 +24,7 @@ export function Card({ title, description, cardButtons }: CardProps) {
       p-2 
       4k:space-y-6"
     >
-      <header
-        className={`${header_style} ${header_laptop} ${header_fullHd} ${header_2k} ${header_4k}`}
-      >
+      <header className="flex rounded bg-zinc-200 px-2 py-1 text-xs font-bold uppercase laptop:mb-2 laptop:text-sm desktop:text-xl 2k:text-2xl 4k:px-4 4k:py-6 4k:text-5xl">
         {title}
       </header>
       <p
