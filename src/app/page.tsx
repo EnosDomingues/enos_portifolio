@@ -1,9 +1,9 @@
-import { About } from '@/components/About'
-import { Contact } from '@/components/Contact'
+import { About } from '@/components/AboutSection'
+import { Contact } from '@/components/ContactSection'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { Projects } from '@/components/Projects'
-import { Skills } from '@/components/Skills'
+import { Projects } from '@/components/ProjectsSection'
+import { Skills } from '@/components/SkillsSection'
 
 export default function Home() {
   return (

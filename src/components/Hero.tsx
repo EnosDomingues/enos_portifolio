@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <section
-      className="tableth-[calc(100vh-2rem)] flex h-96 flex-col items-center justify-center tablet:min-h-screen "
+      className="tableth-[calc(100vh-2rem)] flex h-96 flex-col items-center justify-center tablet:min-h-screen"
       id="hero"
     >
       <div className="tablet-translate-y-10 flex flex-col items-center justify-center">
